@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>School Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav id="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About us</a></li>
+        <li><a href="#statistics">Statistics</a></li>
+        <li><a href="#map">Map</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="fullscreen-slider">
+    <div class="slide active" style="background-image: url('images/school1.jpg')"></div>
+    <div class="slide" style="background-image: url('images/school2.jpg')"></div>
+    <div class="slide" style="background-image: url('images/school3.jpg')"></div>
+    <div class="hero-text">
+      <h1>GS Nyabitare</h1>
+      <p>Welcome to our School</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>Welcome to our school! We are proud to nurture students with care and knowledge.</p>
+      <div class="students-grid">
+        <img src="images/student1.jpg" alt="Student" />
+        <img src="images/student2.jpg" alt="Student" />
+        <img src="images/student3.jpg" alt="Student" />
+      </div>
+    </div>
+  </section>
+
+  <section id="statistics">
+    <div class="stats-container">
+      <div class="stat-card">
+        <h3>320</h3>
+        <p>Students</p>
+      </div>
+      <div class="stat-card">
+        <h3>28</h3>
+        <p>Teachers</p>
+      </div>
+      <div class="stat-card">
+        <h3>15</h3>
+        <p>Staff</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="map">
+    <div class="map-container">
+      <iframe src="https://www.google.com/maps/embed?..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-row">
+      <img src="images/gallery1.jpg" alt="Gallery" />
+      <img src="images/gallery2.jpg" alt="Gallery" />
+      <img src="images/gallery3.jpg" alt="Gallery" />
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact-container">
+      <h2>CONTACT</h2>
+      <p class="contact-subtitle">PLEASE REACH US ON</p>
+      <div class="contact-cards">
+        <div class="contact-card">
+          <span class="emoji">📍</span>
+          <strong>ADDRESS</strong>
+          <p>Shyorongi Sector of Rulindo District, Rwanda.</p>
+        </div>
+        <div class="contact-card">
+          <span class="emoji">✉️</span>
+          <strong>EMAIL</strong>
+          <p>gsshyorongi@gmail.com</p>
+        </div>
+        <div class="contact-card">
+          <span class="emoji">📞</span>
+          <strong>PHONE</strong>
+          <p>+250 1788695674</p>
+        </div>
+      </div>
+      <form class="contact-form" id="contact-form">
+        <div class="form-row">
+          <input type="text" id="name" placeholder="Your Name" required />
+          <input type="email" id="email" placeholder="Your Email" required />
+        </div>
+        <textarea id="message" placeholder="How can we help?" required></textarea>
+        <div class="form-policy">
+          <input type="checkbox" id="policy" required />
+          <label for="policy">I agree to the <a href="#">Privacy Policy</a></label>
+        </div>
+        <button type="submit">Send a request</button>
+      </form>
+      <div id="form-message" style="display:none; margin-top:20px; font-size:1.2em; color:green;">
+        Thank you for contacting us!
+      </div>
+    </div>
+  </section>
+
+  <div id="modal" class="modal">
+    <span id="close">&times;</span>
+    <img class="modal-content" id="modal-img">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
