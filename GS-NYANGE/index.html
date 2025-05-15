@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GS-NYANGE</title>
+  <title>GS NYANGE</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
+  <button class="menu-toggle" onclick="document.querySelector('#navbar ul').classList.toggle('active')">☰</button>
   <header>
     <nav id="navbar">
       <ul>
@@ -24,22 +24,24 @@
   <section id="home" class="fullscreen-slider">
     <div class="slide active" style="background-image: url('images/date.png')"></div>
     <div class="slide" style="background-image: url('images/class.png')"></div>
-    <div class="slide" style="background-image: url('images/event.png')"></div> 
+    <div class="slide" style="background-image: url('images/eventplace.png')"></div> 
 
     <div class="hero-text">
       <h1>GS NYANGE</h1>
-      <p>Welcome to our School</p>
     </div>
   </section>
 
   <section id="about">
-    <div class="container">
-      <h2>About Us</h2>
-      <p>Welcome to our school! We are proud to nurture students with care and knowledge.</p>
-      <div class="students-grid">
-        <img src="images/friends.png" alt="Student" />
-        <img src="images/place.png" alt="Student" />
-        <img src="images/school.png" alt="Student" />
+    <div class="container about-flex">
+      <div class="about-photo">
+        <img src="images/event.png" alt="School" />
+      </div>
+      <div class="about-text">
+        <h2>About Us</h2>
+        <p>
+          Welcome to our school! We are proud to nurture students with care and knowledge.
+          Our school fosters a supportive and inspiring environment, helping every student reach their potential.
+        </p>
       </div>
     </div>
   </section>
@@ -47,15 +49,15 @@
   <section id="statistics">
     <div class="stats-container">
       <div class="stat-card">
-        <h3>300</h3>
+        <h3>320</h3>
         <p>Students</p>
       </div>
       <div class="stat-card">
-        <h3>16</h3>
+        <h3>20</h3>
         <p>Teachers</p>
       </div>
       <div class="stat-card">
-        <h3>11</h3>
+        <h3>8</h3>
         <p>Staff</p>
       </div>
     </div>
@@ -63,72 +65,79 @@
 
   <section id="map">
     <div class="map-container">
-      <iframe 
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7977.035717337819!2d29.624274099999997!3d-1.4629235999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dc5ab65a092e31%3A0x863eb22a1d322e93!2sGS%20Nyange%20I!5e0!3m2!1suk!2spl!4v1746694556696!5m2!1suk!2spl" 
-      width="600" 
-      height="450"
-      style="border:0;" 
-      allowfullscreen="" 
-      loading="lazy" 
-      referrerpolicy="no-referrer-when-downgrade">
-      </iframe>
-    </div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.9523919833737!2d30.79613339100271!3d-2.171799531575499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19c4d36c03bafe01%3A0x386b35112560b78f!2sGS%20Nyabitare!5e0!3m2!1suk!2spl!4v1747334876088!5m2!1suk!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    </div>
   </section>
 
   <section id="gallery">
     <h2>Gallery</h2>
     <div class="gallery-row">
-      <img src="images/company.png" alt="Gallery" />
       <img src="images/date.png" alt="Gallery" />
+      <img src="images/school.png" alt="Gallery" />
+      <img src="images/place.png" alt="Gallery" />
+      <img src="images/friends.png" alt="Gallery" />
       <img src="images/event.png" alt="Gallery" />
       <img src="images/eventplace.png" alt="Gallery" />
+      <img src="images/company.png" alt="Gallery" />
+      <img src="images/class.png" alt="Gallery" />
     </div>
   </section>
 
   <section id="contact">
     <div class="contact-container">
-      <h1 style="font-size: 100px;">CONTACT</h1>
+      <h2>CONTACT</h2>
       <p class="contact-subtitle">PLEASE REACH US ON</p>
-  
       <div class="contact-cards">
         <div class="contact-card">
           <span class="emoji">📍</span>
           <strong>ADDRESS</strong>
-          <p>Ntamiziro, Kabeza, Nyange, Musanze, NORTH province, Rwanda</p>
+          <p>GS Nyabitare, Rusumo</p>
         </div>
         <div class="contact-card">
           <span class="emoji">✉️</span>
           <strong>EMAIL</strong>
-          <p>gsnyange@yahoo.fr</p>
+          <p>info@mineduc.gov.rw</p>
         </div>
         <div class="contact-card">
           <span class="emoji">📞</span>
           <strong>PHONE</strong>
-          <p>+250 788 854 067</p>
+          <p>+220205</p>
         </div>
       </div>
-  
-      <form class="contact-form">
+      <form class="contact-form" id="contact-form">
         <div class="form-row">
-          <input type="text" placeholder="Name" required />
-          <input type="email" placeholder="Email" required />
+          <input type="text" id="name" placeholder="Your Name" required />
+          <input type="email" id="email" placeholder="Your Email" required />
         </div>
-        <textarea placeholder="How can we help?" required></textarea>
+        <textarea id="message" placeholder="How can we help?" required></textarea>
         <div class="form-policy">
-          <input type="checkbox" id="agree" required />
-          <label for="agree">I agree to the <a href="#">Terms & Conditions</a></label>
+          <input type="checkbox" id="policy" required />
+          <label for="policy">I agree to the <a href="#">Privacy Policy</a></label>
         </div>
         <button type="submit">Send a request</button>
       </form>
+      <div id="form-message" style="display:none; margin-top:20px; font-size:1.2em; color:green;">
+        Thank you for contacting us!
+      </div>
     </div>
   </section>
 
-  <!-- Modal for full image view -->
   <div id="modal" class="modal">
     <span id="close">&times;</span>
     <img class="modal-content" id="modal-img">
   </div>
 
+
+  <script>
+    // Auto-close mobile menu on link click
+    document.querySelectorAll('#navbar a').forEach(link => {
+      link.addEventListener('click', () => {
+        const menu = document.querySelector('#navbar ul');
+        if (menu.classList.contains('active')) {
+          menu.classList.remove('active');
+        }
+      });
+    });
+  </script>
   <script src="script.js"></script>
 </body>
 </html>
