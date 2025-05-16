@@ -535,6 +535,13 @@ h2 {
   .about-text {
     max-width: 90%;
   }
+  .about-text h2 {
+    text-align: center;
+  }
+  h2 {
+    font-size: 3em;
+  }
+
 
   .about-text {
     text-align: center;
