@@ -1,25 +1,49 @@
 # GLP-Schools
-🌐 School Website – Single Page Application (HTML, CSS, JS)
 
-This is a modern, responsive one-page school website built using only HTML, CSS, and JavaScript. The design is clean and elegant, with smooth navigation and visually appealing UI components.
+🌍 **Modern One-Page School Website** (HTML, CSS, JS)
 
-🚩 Features:
-	•	Navigation Bar – A transparent top navbar with smooth scrolling to each section: Home, About Us, Statistics, Map, Gallery, Contact. The navbar becomes solid after scrolling past the hero image.
-	•	Home Section – Fullscreen background image slider showcasing school photos with automatic transitions.
-	•	About Us – Description of the school and its students, including a photo grid of all students. Stylish section with modern card layout.
-	•	Statistics – Minimalist centered circular block displaying stats: number of students, teachers, and staff.
-	•	Map – Embedded Google Map showing the school’s location.
-	•	Gallery – Horizontal scrollable photo gallery in attractive rounded cards.
-	•	Contact – Centered contact form with three additional blocks for phone number, email, and address.
+This is a clean, responsive one-page website template built using only HTML, CSS, and vanilla JavaScript — no frameworks. It works great on both desktop and mobile devices and is ideal for school presentations.
 
-🛠️ Technologies Used:
-	•	HTML5
-	•	CSS3 (Flexbox, Grid, Transitions)
-	•	JavaScript (Vanilla)
-	•	Google Maps Embed API
+---
 
-💡 Design Principles:
-	•	Fully responsive layout
-	•	Centered content with rounded containers and soft shadows
-	•	Light animations and smooth scrolling
-	•	Clean and intuitive user experience
+## 🚀 Main Sections
+
+- **Home** — fullscreen image slider with school photos  
+- **About Us** — school introduction and student section  
+- **Statistics** — compact block with numbers (students, teachers, staff)  
+- **Map** — embedded Google Maps location  
+- **Gallery** — grid-based photo gallery  
+- **Contact** — contact form and contact information (email, phone, address)
+
+---
+
+## ⚙️ Technologies Used
+
+- HTML5  
+- CSS3 (Flexbox, Grid, Transitions)  
+- JavaScript (Vanilla)  
+- Google Maps Embed
+
+---
+
+## 🎨 Design Highlights
+
+- Fully responsive layout  
+- Centered and rounded content blocks  
+- Smooth scrolling and light animations  
+- Simple and intuitive UI
+
+---
+
+## 🏫 School Websites
+
+- **GS-NYABITARE** — [[link](https://kisonam.github.io/GLP-Schools/GS-NYABITARE%20/index.html)]
+- **GS NYANGE** — [link]
+- **G.S-KANSI-B** — [link]
+- **G.S-GIKORE** — [link]
+- **E.S-KANSI** — [link]
+- **G.S NYAGAHURU II / TSS** — [link]
+- **GS MBOGO** — [link]
+- **GS CYIRI** — [link]
+- **G.S GISHUBI** — [link]
+- **GS MUDUHA** — [link]
