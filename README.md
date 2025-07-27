@@ -1,59 +1,66 @@
 # GLP-Schools
 
-🌍 **Modern One-Page School Website** (HTML, CSS, JS)
+**GLP-Schools** — це збірка односторінкових сайтів різних шкіл. У кожній папці знаходиться повністю готовий статичний сайт на HTML, CSS та JavaScript, який можна відкривати без додаткових інструментів.
 
-This is a clean, responsive one-page website template built using only HTML, CSS, and vanilla JavaScript — no frameworks. It works great on both desktop and mobile devices and is ideal for school presentations.
+## Структура папки
+- `index.html` — головна сторінка
+- `style.css` — стилі конкретної школи
+- `script.js` — базові скрипти (слайдер, меню, галерея)
+- `images/` — зображення
 
----
+## Як переглянути
+1. Склонуйте репозиторій.
+2. Відкрийте файл `index.html` з потрібної папки в браузері.
 
-## 🚀 Main Sections
+Сайти повністю статичні, тому запуск сервера не потрібен.
 
-- **Home** — fullscreen image slider with school photos  
-- **About Us** — school introduction and student section  
-- **Statistics** — compact block with numbers (students, teachers, staff)  
-- **Map** — embedded Google Maps location  
-- **Gallery** — grid-based photo gallery  
-- **Contact** — contact form and contact information (email, phone, address)
+## Основні можливості
+- Слайдер на головній сторінці
+- Плавне прокручування й адаптивне меню
+- Блок зі статистикою
+- Вбудована карта Google
+- Галерея з модальним переглядом
+- Простий контактний формуляр
 
----
-
-## ⚙️ Technologies Used
-
-- HTML5  
-- CSS3 (Flexbox, Grid, Transitions)  
-- JavaScript (Vanilla)  
+## Використані технології
+- HTML5
+- CSS3 (Flexbox, Grid, анімації)
+- Чистий JavaScript
 - Google Maps Embed
 
+## Особливості дизайну
+- Повністю адаптивний макет
+- Центровані та заокруглені блоки контенту
+- Плавні переходи та легкі анімації
+- Максимально простий інтерфейс
+
+## Доступні сайти
+- **GS-NYABITARE** — [link](https://kisonam.github.io/GLP-Schools/GS-NYABITARE%20/index.html)
+- **GS NYANGE** — [link](https://kisonam.github.io/GLP-Schools/GS-NYANGE/index.html)
+- **G.S-KANSI-B** — [link](https://kisonam.github.io/GLP-Schools/G.S-KANSI-B/index.html)
+- **G.S-GIKORE** — [link](https://kisonam.github.io/GLP-Schools/G.S-GIKORE/index.html)
+- **E.S-KANSI** — [link](https://kisonam.github.io/GLP-Schools/E.S-KANSI/index.html)
+- **G.S NYAGAHURU II / TSS** — [link](https://kisonam.github.io/GLP-Schools/G.S-NYAGAHURU-II/index.html)
+- **GS MBOGO** — [link](https://kisonam.github.io/GLP-Schools/GS%20MBOGO/index.html)
+- **GS CYIRI** — [link](https://kisonam.github.io/GLP-Schools/GS-CYIRI/index.html)
+- **G.S GISHUBI** — [link](https://kisonam.github.io/GLP-Schools/G.S-GISHUBI/index.html)
+- **GS MUDUHA** — [link](https://kisonam.github.io/GLP-Schools/GS-MUDUHA/index.html)
+- **GS REMERA INDANGAMIRWA** — [link](https://kisonam.github.io/GLP-Schools/GS-Remera-Indangamirwa/index.html)
+- **GS MUSHAKA** — [link](https://kisonam.github.io/GLP-Schools/GS-Mushaka/index.html)
+- **GS MUHEHWE** — [link](https://kisonam.github.io/GLP-Schools/GS-Muhehwe/index.html)
+- **GS GISAKURA / TSS** — [link](https://kisonam.github.io/GLP-Schools/GS-Gisakura/index.html)
+- **GS NYANZA B** — [link](https://kisonam.github.io/GLP-Schools/GS-Nyanza-B/index.html)
+- **GS BUSHENGE** — [link](https://kisonam.github.io/GLP-Schools/GS-Bushenge/index.html)
+- **GS MUTUNDA** — [link](https://kisonam.github.io/GLP-Schools/GS-Mutunda/index.html)
+- **GS GIKONGORO** — [link](https://kisonam.github.io/GLP-Schools/GS-Gikongoro/index.html)
+- **GS. GASAKA** — [link](https://kisonam.github.io/GLP-Schools/GS-GASAKA/index.html)
+- **GS.MUSENYI** — [link](https://kisonam.github.io/GLP-Schools/GS-MUSENYI/index.html)
+
+## Створення нової сторінки
+1. Скопіюйте будь-яку існуючу папку як шаблон.
+2. Замініть зображення та текст на інформацію вашої школи.
+3. За потреби змініть `script.js` і `style.css` для власного оформлення.
+
 ---
 
-## 🎨 Design Highlights
-
-- Fully responsive layout  
-- Centered and rounded content blocks  
-- Smooth scrolling and light animations  
-- Simple and intuitive UI
-
----
-
-## 🏫 School Websites
-
-- **GS-NYABITARE** — [[link](https://kisonam.github.io/GLP-Schools/GS-NYABITARE%20/index.html)]
-- **GS NYANGE** — [[link](https://kisonam.github.io/GLP-Schools/GS-NYANGE/index.html)]
-- **G.S-KANSI-B** — [[link](https://kisonam.github.io/GLP-Schools/G.S-KANSI-B/index.html)]
-- **G.S-GIKORE** — [[link](https://kisonam.github.io/GLP-Schools/G.S-GIKORE/index.html)]
-- **E.S-KANSI** — [[link](https://kisonam.github.io/GLP-Schools/E.S-KANSI/index.html)]
-- **G.S NYAGAHURU II / TSS** — [[link](https://kisonam.github.io/GLP-Schools/G.S-NYAGAHURU-II/index.html)]
-- **GS MBOGO** — [[link](https://kisonam.github.io/GLP-Schools/GS%20MBOGO/index.html)]
-- **GS CYIRI** — [[link](https://kisonam.github.io/GLP-Schools/GS-CYIRI/index.html)]
-- **G.S GISHUBI** — [[link](https://kisonam.github.io/GLP-Schools/G.S-GISHUBI/index.html)]
-- **GS MUDUHA** — [[link](https://kisonam.github.io/GLP-Schools/GS-MUDUHA/index.html)]
-- **GS REMERA INDANGAMIRWA** — [[link](https://kisonam.github.io/GLP-Schools/GS-Remera-Indangamirwa/index.html)]  
-- **GS MUSHAKA** — [[link](https://kisonam.github.io/GLP-Schools/GS-Mushaka/index.html)]  
-- **GS MUHEHWE** — [[link](https://kisonam.github.io/GLP-Schools/GS-Muhehwe/index.html)]  
-- **GS GISAKURA / TSS** — [[link](https://kisonam.github.io/GLP-Schools/GS-Gisakura/index.html)]  
-- **GS NYANZA B** — [[link](https://kisonam.github.io/GLP-Schools/GS-Nyanza-B/index.html)]  
-- **GS BUSHENGE** — [[link](https://kisonam.github.io/GLP-Schools/GS-Bushenge/index.html)]  
-- **GS MUTUNDA** — [[link](https://kisonam.github.io/GLP-Schools/GS-Mutunda/index.html)]  
-- **GS GIKONGORO** — [[link](https://kisonam.github.io/GLP-Schools/GS-Gikongoro/index.html)]  
-- **GS. GASAKA** — [[link](https://kisonam.github.io/GLP-Schools/GS-GASAKA/index.html)]  
-- **GS.MUSENYI** — [[link](https://kisonam.github.io/GLP-Schools/GS-MUSENYI/index.html)]  
+Цей репозиторій можна використовувати як основу для швидкого створення простих сайтів навчальних закладів без використання фреймворків чи складних збірок.
